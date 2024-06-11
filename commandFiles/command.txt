@@ -1,0 +1,8 @@
+To compile :- 
+src > javac -d ..\classes -classpath "'specify path if required'" com\thinking\machines\.......\*.java
+
+To create jar file :-
+classes > jar -cvf ..\dist\file_name.jar com
+
+To Run :- 
+java -classpath ..\common\dist\hr-common.jar;..\dbdl\dist\dbdl.jar;..\bl\dist\bl.jar;..\pl\dist\pl.jar;..\pl\dist\designation-Resource.jar;..\..\itext7\*;..\..\mysqljar\mysql.jar; com.thinking.machines.hr.pl.Main
