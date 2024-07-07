@@ -4,5 +4,13 @@ src > javac -d ..\classes -classpath "'specify path if required'" com\thinking\m
 To create jar file :-
 classes > jar -cvf ..\dist\file_name.jar com
 
+Setup : 
+
+create utilities folder in hr and extract itext7.zip and mysqljar.zip in it.
+
 To Run :- 
-java -classpath ..\common\dist\hr-common.jar;..\dbdl\dist\dbdl.jar;..\bl\dist\bl.jar;..\pl\dist\pl.jar;..\pl\dist\designation-Resource.jar;..\..\itext7\*;..\..\mysqljar\mysql.jar; com.thinking.machines.hr.pl.Main
+hr/pl> java -classpath ..\common\dist\hr-common.jar;..\dbdl\dist\dbdl.jar;..\bl\dist\bl.jar;..\pl\dist\pl.jar;..\pl\dist\designation-Resource.jar;..\utilities\itext7\*;..\utilities\mysqljar\mysql.jar; com.thinking.machines.hr.pl.Main
+
+
+
+
